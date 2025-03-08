@@ -38,12 +38,12 @@ namespace EventTicketSystem.Server.Controllers
         {
             var eventSelected = await _eventService.GetEventById(t.eventId);
             if (eventSelected is null) return NotFound("The event dosen't exist !");
-            if(eventSelected.availableSeats > 1)
-            {
-                eventSelected.availableSeats--;
-                // save the event with Update
-                return Conflict();         
-                    }
+            //if(eventSelected.availableSeats > 1)
+            //{
+            //    eventSelected.availableSeats--;
+            //    // save the event with Update
+            //    return Conflict();         
+            //        }
 
 
             await _service.AddTicket(t);
@@ -58,13 +58,13 @@ namespace EventTicketSystem.Server.Controllers
             var ticketSelected = await _service.GetTicketById(id);
             if (ticketSelected is null) return NotFound();
 
-            var eventSelected = await _eventService.GetEventById(ticketSelected.eventId);
-            // if (DateTime.Compare(eventSelected.date,DateTime.Now) ) return BadRequest();
-            if (eventSelected.date < DateTime.Now) return BadRequest();
+            //var eventSelected = await _eventService.GetEventById(ticketSelected.eventId);
+            //// if (DateTime.Compare(eventSelected.date,DateTime.Now) ) return BadRequest();
+            //if (eventSelected.date < DateTime.Now) return BadRequest();
 
-            await _service.DeleteTicket(id);
+            //await _service.DeleteTicket(id);
 
-            eventSelected.availableSeats++;
+            //eventSelected.availableSeats++;
             // save the event with update
 
             return NoContent();
