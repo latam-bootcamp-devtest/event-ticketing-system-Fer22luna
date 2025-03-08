@@ -13,7 +13,14 @@ namespace EventTicketSystem.Server.Controllers
             service = _service;
         }
 
-        [HttpGet("{id}")]
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Event>>> GetAllEvents()
+        {
+            var employees = await _service.GetEvents();
+            return Ok(employees);
+        }
+
+            [HttpGet("{id}")]
         public async Task<ActionResult<Event>> GetEventById(int id)
         {
             var employee = await _service.GetEventById(id);
@@ -27,6 +34,14 @@ namespace EventTicketSystem.Server.Controllers
         {
             await _service.AddEvent(e);
             return CreatedAtAction(nameof(GetEventById), new { id = e.eventId }, e);
+        }
+
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteEvent(int id)
+        {
+            await _service.DeleteEvent(id);
+            return NoContent();
         }
 
 
