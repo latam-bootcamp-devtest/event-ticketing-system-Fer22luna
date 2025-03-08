@@ -7,10 +7,11 @@ namespace EventTicketSystem.Server.Services
     {
 
         private readonly ITicketRepository _repository;
-
-        public TicketService(ITicketRepository repository)
+        private readonly IEventRepository _eventRepository;
+        public TicketService(ITicketRepository repository, IEventRepository eventRepository)
         {
             _repository = repository;
+            _eventRepository = eventRepository;
         }
 
         public async Task<IEnumerable<Ticket>> GetTickets() => await _repository.GetAllTickets();
@@ -20,8 +21,21 @@ namespace EventTicketSystem.Server.Services
         public async Task AddTicket(Ticket t)
         {
 
-            await _repository.AddTicket(t);
-            await _repository.SaveChanges();
+            var ticket = await _eventRepository.GetEventById(t.eventId);
+            if ( ticket == null) {
+                throw new ArgumentException("Dont exist that Event with that id");
+            }
+            if (ticket.availableSeats > 1)
+            {
+
+                ticket.availableSeats--;
+
+                await _eventRepository.SaveChanges();
+                await _repository.AddTicket(t);
+                await _repository.SaveChanges();
+            }
+
+
         }
 
         public async Task DeleteTicket(int id)

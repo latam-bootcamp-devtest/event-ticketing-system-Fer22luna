@@ -9,10 +9,12 @@ namespace EventTicketSystem.Server.Controllers
     public class TicketController : Controller
     {
         private readonly ITicketService _service;
+        private readonly IEventService _eventService;
 
-        public TicketController(ITicketService service)
+        public TicketController(ITicketService service, IEventService eventService)
         {
             _service = service;
+            _eventService = eventService;
         }
 
         [HttpGet]
@@ -26,7 +28,7 @@ namespace EventTicketSystem.Server.Controllers
         public async Task<ActionResult<Ticket>> GetTicketById(int id)
         {
             var ticket = await _service.GetTicketById(id);
-            if (ticket == null) return NotFound();
+            if (ticket is null) return NotFound();
             return Ok(ticket);
         }
 
@@ -34,6 +36,16 @@ namespace EventTicketSystem.Server.Controllers
         [HttpPost]
         public async Task<ActionResult> AddTicket(Ticket t)
         {
+            var eventSelected = await _eventService.GetEventById(t.eventId);
+            if (eventSelected is null) return NotFound("The event dosen't exist !");
+            if(eventSelected.availableSeats > 1)
+            {
+                eventSelected.availableSeats--;
+                // save the event with Update
+                return Conflict();         
+                    }
+
+
             await _service.AddTicket(t);
             return CreatedAtAction(nameof(GetTicketById), new { id = t.ticketId }, t);
         }
@@ -42,7 +54,19 @@ namespace EventTicketSystem.Server.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteTicket(int id)
         {
+
+            var ticketSelected = await _service.GetTicketById(id);
+            if (ticketSelected is null) return NotFound();
+
+            var eventSelected = await _eventService.GetEventById(ticketSelected.eventId);
+            // if (DateTime.Compare(eventSelected.date,DateTime.Now) ) return BadRequest();
+            if (eventSelected.date < DateTime.Now) return BadRequest();
+
             await _service.DeleteTicket(id);
+
+            eventSelected.availableSeats++;
+            // save the event with update
+
             return NoContent();
         }
 

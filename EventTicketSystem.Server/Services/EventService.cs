@@ -19,7 +19,7 @@ namespace EventTicketSystem.Server.Services
 
         public async Task AddEvent(Event e)
         {
-           
+          
 
             await _repository.AddEvent(e);
             await _repository.SaveChanges();
