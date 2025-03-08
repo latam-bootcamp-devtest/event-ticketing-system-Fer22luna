@@ -3,7 +3,7 @@ using EventTicketSystem.Server.Repository;
 
 namespace EventTicketSystem.Server.Services
 {
-    public class EventService
+    public class EventService:IEventService
     {
 
         private readonly IEventRepository _repository;
@@ -13,12 +13,14 @@ namespace EventTicketSystem.Server.Services
             _repository = repository;
         }
 
-        public async Task<IEnumerable<Event>> GetEvent() => await _repository.GetAllEvents();
+        public async Task<IEnumerable<Event>> GetEvents() => await _repository.GetAllEvents();
 
         public async Task<Event?> GetEventById(int id) => await _repository.GetEventById( id);
 
         public async Task AddEvent(Event e)
         {
+           
+
             await _repository.AddEvent(e);
             await _repository.SaveChanges();
         }

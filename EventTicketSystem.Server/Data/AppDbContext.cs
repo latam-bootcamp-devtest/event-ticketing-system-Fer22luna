@@ -11,7 +11,7 @@ namespace EventTicketSystem.Server.Data
         public AppDbContext(DbContextOptions<AppDbContext> options): base(options) { }
 
         public DbSet<Event> Events { get; set; }
-
+        public DbSet<Ticket> Tickets { get; set; }
 
     }
 }

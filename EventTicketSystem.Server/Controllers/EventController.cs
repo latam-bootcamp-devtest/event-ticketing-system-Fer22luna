@@ -4,34 +4,40 @@ using EventTicketSystem.Server.Models;
 
 namespace EventTicketSystem.Server.Controllers
 {
+    [ApiController]
+    [Route("[controller]/[action]")]
     public class EventController : Controller
     {
         private readonly IEventService _service;
 
         public EventController(IEventService service)
         {
-            service = _service;
+            _service = service;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Event>>> GetAllEvents()
         {
-            var employees = await _service.GetEvents();
-            return Ok(employees);
+            var events = await _service.GetEvents();
+            return Ok(events);
         }
 
-            [HttpGet("{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<Event>> GetEventById(int id)
         {
-            var employee = await _service.GetEventById(id);
-            if (employee == null) return NotFound();
-            return Ok(employee);
+            var events = await _service.GetEventById(id);
+            if (events == null) return NotFound();
+            return Ok(events);
         }
 
 
         [HttpPost]
         public async Task<ActionResult> AddEvent(Event e)
         {
+            if(e.availableSeats <= 0)
+            {
+                return BadRequest("Available Seats must be greater than 0");
+            }
             await _service.AddEvent(e);
             return CreatedAtAction(nameof(GetEventById), new { id = e.eventId }, e);
         }
