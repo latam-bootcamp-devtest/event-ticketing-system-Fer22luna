@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|c:\\users\\fer22\\documents\\github\\event-ticketing-system-fer22luna\\eventticketsystem.server\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|solutionrelative:eventticketsystem.server\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|c:\\users\\fer22\\documents\\github\\event-ticketing-system-fer22luna\\eventticketsystem.server\\repository\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|solutionrelative:eventticketsystem.server\\repository\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|c:\\users\\fer22\\documents\\github\\event-ticketing-system-fer22luna\\eventticketsystem.server\\repository\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|solutionrelative:eventticketsystem.server\\repository\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|c:\\users\\fer22\\documents\\github\\event-ticketing-system-fer22luna\\eventticketsystem.server\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|solutionrelative:eventticketsystem.server\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|c:\\users\\fer22\\documents\\github\\event-ticketing-system-fer22luna\\eventticketsystem.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|solutionrelative:eventticketsystem.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|c:\\users\\fer22\\documents\\github\\event-ticketing-system-fer22luna\\eventticketsystem.server\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|solutionrelative:eventticketsystem.server\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|c:\\users\\fer22\\documents\\github\\event-ticketing-system-fer22luna\\eventticketsystem.server\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|c:\\users\\fer22\\documents\\github\\event-ticketing-system-fer22luna\\eventticketsystem.server\\services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|solutionrelative:eventticketsystem.server\\services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|c:\\users\\fer22\\documents\\github\\event-ticketing-system-fer22luna\\eventticketsystem.server\\repository\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|solutionrelative:eventticketsystem.server\\repository\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{116330E8-C116-4029-881B-3094BFA47597}|EventTicketSystem.Server\\EventTicketSystem.Server.csproj|c:\\users\\fer22\\documents\\github\\event-ticketing-system-fer22luna\\eventticketsystem.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,41 +82,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Repository\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "EventTicketSystem.Server\\Repository\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Repository\\TicketRepository.cs",
+              "RelativeToolTip": "EventTicketSystem.Server\\Repository\\TicketRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:08:15.697Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EventTicketSystem.Server\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EventTicketSystem.Server\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:03:02.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TicketService.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Services\\TicketService.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Services\\TicketService.cs",
               "ToolTip": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Services\\TicketService.cs",
               "RelativeToolTip": "EventTicketSystem.Server\\Services\\TicketService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T15:08:34.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EventService.cs",
-              "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Services\\EventService.cs",
-              "RelativeDocumentMoniker": "EventTicketSystem.Server\\Services\\EventService.cs",
-              "ToolTip": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Services\\EventService.cs",
-              "RelativeToolTip": "EventTicketSystem.Server\\Services\\EventService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAASwBUAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T13:56:15.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Controllers\\EventController.cs",
@@ -121,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Models\\Ticket.cs",
@@ -134,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Program.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Program.cs",
@@ -147,33 +168,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "TicketController.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Controllers\\TicketController.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Controllers\\TicketController.cs",
               "ToolTip": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Controllers\\TicketController.cs",
               "RelativeToolTip": "EventTicketSystem.Server\\Controllers\\TicketController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwB8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T15:12:58.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "ITicketRepository.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Repository\\ITicketRepository.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Repository\\ITicketRepository.cs",
               "ToolTip": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Repository\\ITicketRepository.cs",
               "RelativeToolTip": "EventTicketSystem.Server\\Repository\\ITicketRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T14:50:32.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "EventTicketSystem.Server\\Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Services\\EventService.cs",
+              "RelativeToolTip": "EventTicketSystem.Server\\Services\\EventService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAASwBUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T13:56:15.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "EventRepository.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Repository\\EventRepository.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Repository\\EventRepository.cs",
@@ -186,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IEventService.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Services\\IEventService.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Services\\IEventService.cs",
@@ -199,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IEventRepository.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Repository\\IEventRepository.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Repository\\IEventRepository.cs",
@@ -212,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Data\\AppDbContext.cs",
@@ -225,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Models\\Event.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Models\\Event.cs",
@@ -238,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "20250308142022_AddTableEvents.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Migrations\\20250308142022_AddTableEvents.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Migrations\\20250308142022_AddTableEvents.cs",
@@ -251,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "20250308141611_AddTableEvent.cs",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\Migrations\\20250308141611_AddTableEvent.cs",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\Migrations\\20250308141611_AddTableEvent.cs",
@@ -264,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\appsettings.json",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\appsettings.json",
@@ -277,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "EventTicketSystem.Server.csproj",
               "DocumentMoniker": "C:\\Users\\fer22\\Documents\\GitHub\\event-ticketing-system-Fer22luna\\EventTicketSystem.Server\\EventTicketSystem.Server.csproj",
               "RelativeDocumentMoniker": "EventTicketSystem.Server\\EventTicketSystem.Server.csproj",

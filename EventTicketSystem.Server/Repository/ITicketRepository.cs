@@ -8,6 +8,7 @@ namespace EventTicketSystem.Server.Repository
         Task<Ticket?> GetTicketById(int id);
         Task AddTicket(Ticket e);
         Task DeleteTicket(int id);
+        Task<IEnumerable<Ticket>> GetTickesByUserId(int userId);
         Task SaveChanges();
     }
 }

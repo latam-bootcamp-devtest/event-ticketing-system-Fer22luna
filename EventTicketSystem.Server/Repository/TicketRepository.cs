@@ -1,6 +1,7 @@
 ﻿using EventTicketSystem.Server.Data;
 using EventTicketSystem.Server.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace EventTicketSystem.Server.Repository
 {
@@ -17,6 +18,8 @@ namespace EventTicketSystem.Server.Repository
         public async Task<IEnumerable<Ticket>> GetAllTickets() => await _context.Tickets.ToListAsync();
 
         public async Task<Ticket?> GetTicketById(int id) => await _context.Tickets.FindAsync(id);
+
+        public async Task<IEnumerable<Ticket>> GetTickesByUserId(int userId) => await _context.Tickets.Where(c => c.Equals(userId)).ToListAsync();
 
         public async Task AddTicket(Ticket t)
         {
