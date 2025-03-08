@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventTicketSystem.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7c00dbb26aad7198aca9c13d6b87bea28834a21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82c4f9de4428a2ffa096743c365f6cb5aeee404b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventTicketSystem.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventTicketSystem.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
